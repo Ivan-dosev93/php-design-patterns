@@ -2,7 +2,7 @@
 
 
 namespace Composite;
-
+require dirname(__DIR__).'/Composite/Component.php';
 
 class Product extends Component
 {
